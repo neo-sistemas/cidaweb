@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace cida.lojavirtual.Dominio.Entidades
+namespace cida.lojavirtual.Dominio.Entidade
 {
-    class PRODUTOS
+    public class Produto
     {
-        public int CodProduto { get; set; }
+        public int ProdutoId { get; set; }
         public string Nome { get; set; }
+        public string Descricao { get; set; }
         public decimal Preco { get; set; }
         public string Categoria { get; set; }
-        public string Descricao{ get; set; }
     }
 }
